@@ -1,0 +1,9 @@
+# encoding_modulation_100_mbps_ethernet_network
+complete program is in cpp
+here 100base_fx singnal is being implemented
+encoding shcemes:
+                 4B5B 
+                 NRZ-I
+4B5B block encoding is used to avoid the synchronization problem of NRZ-I.
+after 3 sequence of '0' or '1' bit,NRZ-I looses its synchronizaton.
+Modulation technique:Binary phase shift keying or Biphase modulation is used.
